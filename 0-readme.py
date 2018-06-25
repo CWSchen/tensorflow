@@ -1,8 +1,10 @@
 import numpy as np
 import cv2  # opencv
 '''
-缺少 TensorFlow 就 pip install TensorFlow 如果报错 安装不成功。
-就尝试用这个 pip install --upgrade --ignore-installed tensorflow 成功了
+目前python 3.5 支持 windows安装TensorFlow
+
+如果 pip install TensorFlow 如果报错 安装不成功。
+就尝试用这个 pip install --upgrade --ignore-installed tensorflow
 '''
 
 '''
@@ -24,7 +26,7 @@ http://www.cnblogs.com/keyky/p/7899051.html
 1. TensorFlow的NCE-Loss的实现和word2vec
 http://www.jianshu.com/p/fab82fa53e16
 
-已打印
+
 Tensorflow一些常用基本概念与函数
 https://blog.csdn.net/lenbow/article/details/52152766
 https://blog.csdn.net/lenbow/article/details/52181159
